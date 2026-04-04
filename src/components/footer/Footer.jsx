@@ -57,7 +57,7 @@ function Footer() {
                             </div>
                         </div>
 
-                        <div className="flex flex-col md:items-end">
+                        <div className="flex flex-col items-start md:items-end">
                             <div className="flex gap-3 flex-row-reverse mb-10 md:mb-16 ">
                                 <div className="flex gap-3">
                                     

@@ -18,7 +18,7 @@ function AroundTextIcons() {
   ];
 
   return (
-    <section className="w-full py-10 sm:py-16 md:pt-20 overflow-hidden">
+    <section className="w-full pt-20 overflow-hidden">
       <div className="relative w-full max-w-[320px] sm:max-w-[520px] md:max-w-[760px] h-[360px] sm:h-[460px] md:h-[520px] mx-auto">
         <div className="absolute inset-0 flex items-center justify-center">
           <h2 className="text-center text-xl sm:text-2xl md:text-4xl lg:text-4xl font-semibold text-zinc-900">

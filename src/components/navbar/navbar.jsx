@@ -32,7 +32,7 @@ import { NavLink } from "react-router-dom";
           </NavLink>
         </nav>
 
-        <button className="px-5 py-2 border rounded-full text-sm text-zinc-700 hover:bg-zinc-100 active:bg-zinc-200 transition">
+        <button className="px-5 py-2 border rounded-full text-sm font-semibold text-zinc-700 hover:bg-zinc-100 active:bg-zinc-200 transition">
           Login
         </button>
       </div>
