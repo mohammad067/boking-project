@@ -23,8 +23,8 @@ function SlideTiket() {
   const wrapOffset = (offset, n) => {
     const half = Math.floor(n / 2);
     let x = offset % n;
-    if (x > half) x -= n;
     if (x < -half) x += n;
+    if (x > half) x -= n; 
     return x;
   };
 
@@ -63,7 +63,7 @@ function SlideTiket() {
                 zIndex: z,
               }}
             >
-              {/* 👇 حلقه خط‌چین فقط برای آیتم فعال */}
+              
               {isCenter && (
                 <span className="absolute -inset-1 rounded-full border-2 border-dashed border-gray-700 animate-spin-slow" />
               )}
@@ -80,6 +80,7 @@ function SlideTiket() {
             </button>
           );
         })}
+        
       </div>
     </div>
   );

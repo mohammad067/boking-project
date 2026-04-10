@@ -1,10 +1,11 @@
 import { useState } from "react";
 import Input from "../input/Input";
+import { label } from "framer-motion/m";
 
 function TicketCard() {
   const [tripType, setTripType] = useState("oneway");
-  const [from, setFrom] = useState(" select from");
-  const [to, setTo] = useState("select to");
+  const [from, setFrom] = useState("");
+  const [to, setTo] = useState("");
   const [date, setDate] = useState("");
   const [passenger, setPassenger] = useState(1);
   const [travelClass, setTravelClass] = useState("");
@@ -44,7 +45,7 @@ function TicketCard() {
               key={type}
               type="button"
               onClick={() => setTripType(type)}
-              className={`px-3 sm:px-4 py-1.5 rounded-full text-xs sm:text-sm transition
+              className={`px-3 py-1.5 rounded-full text-xs sm:text-sm transition
                 ${
                   tripType === type
                     ? "bg-white text-black"
@@ -90,7 +91,7 @@ function TicketCard() {
         {/* Swap Button */}
         <button
           type="button"
-          onClick={handleSwap}
+          onClick={handleSwap || setTo||setFrom}
           className="absolute hidden md:flex left-1/2 top-1/2
                      -translate-x-1/2 -translate-y-1/2
                      bg-white/20 backdrop-blur-md
@@ -156,7 +157,9 @@ function TicketCard() {
       >
         Search Flights
       </button>
+      
     </div>
+    
   );
 }
 

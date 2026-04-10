@@ -19,9 +19,9 @@ function AroundTextIcons() {
 
   return (
     <section className="w-full pt-20 overflow-hidden">
-      <div className="relative w-full max-w-[320px] sm:max-w-[520px] md:max-w-[760px] h-[360px] sm:h-[460px] md:h-[520px] mx-auto">
+      <div className="relative  w-full max-w-[320px] sm:max-w-[520px] md:max-w-[760px] h-[360px] sm:h-[460px] md:h-[520px] mx-auto ">
         <div className="absolute inset-0 flex items-center justify-center">
-          <h2 className="text-center text-xl sm:text-2xl md:text-4xl lg:text-4xl font-semibold text-zinc-900">
+          <h2 className="text-center text-xl sm:text-2xl md:text-4xl lg:text-4xl font-semibold text-zinc-900 ">
             One place <span className="font-light opacity-60">for all your</span>
             <br />
             ticket booking needs.
@@ -30,7 +30,7 @@ function AroundTextIcons() {
 
         {icons.map((item, i) => (
           <div key={i} className={`absolute ${item.pos}`}>
-            <div className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full bg-white shadow-md flex items-center justify-center">
+            <div className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full bg-white shadow-md flex items-center justify-center transition-transform hover:scale-110">
               <img
                 src={item.img}
                 alt=""
@@ -39,14 +39,18 @@ function AroundTextIcons() {
             </div>
           </div>
         ))}
-        
+                
+
       </div>
+      <div className="top-1 w-full h-40 bg-gradient-to-b from-transparent to-white" />
             <img
               src={image}
-              alt=""
+              alt="bg-footer"
               className="inset-0 w-full h-full object-cover -z-10"
             />
+            
     </section>
+    
   );
 }
 

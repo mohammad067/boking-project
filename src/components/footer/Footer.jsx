@@ -13,15 +13,15 @@ function Footer() {
     return (
         <footer className="relative overflow-hidden">
 
-            {/* لایه تیره */}
+ 
             <div className="relative z-10 bg-lime-900 py-2 px-3">
 
-                {/* کارت سفید */}
+              
                 <div className="max-w-14xl mx-auto bg-white rounded-2xl mb-4 px-5 sm:px-8 md:px-12 py-16">
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
 
-                        {/* سمت چپ */}
+                       
                         <div>
                             <h2 className="text-2xl md:text-3xl italic  font-semibold mb-6 text-zinc-900">
                                 Booking
@@ -30,12 +30,12 @@ function Footer() {
                             <div className="space-y-3 text-sm md:text-base text-zinc-500 mb-10">
                                 <p className="flex gap-2">
                                     <span>📍</span>
-                                    <span>Downtown District, San Francisco</span>
+                                    <span>tehran-shahrRay-bayat ST-karimiShirazey ST</span>
                                 </p>
 
                                 <p className="flex gap-2">
                                     <span>📞</span>
-                                    <span>+1 (555) 019-8421</span>
+                                    <span>+98 9199724318</span>
                                 </p>
                             </div>
 

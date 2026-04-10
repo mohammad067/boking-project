@@ -1,4 +1,4 @@
-import image2 from "../../assets/images/bg-landing4.png";
+import image2 from "../../assets/images/bg-landing/bg-landing4.png";
 
 function BookingSteps() {
   return (
@@ -6,7 +6,7 @@ function BookingSteps() {
 
       <img
         src={image2}
-        alt=""
+        alt="bg-landing4"
         className="absolute inset-0 w-full h-full object-cover rounded-b-2xl -z-10"
       />
       <div className="relative z-10 px-4 sm:px-6 md:px-10 pb-16 md:pb-20">

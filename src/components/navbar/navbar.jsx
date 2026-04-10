@@ -12,8 +12,8 @@ import { NavLink } from "react-router-dom";
 
   return (
     <header className="w-full bg-white shadow-sm">
-      <div className="px-4 md:px-8 py-4 flex flex-col items-center gap-3 md:flex-row md:justify-between">
-        <h1 className="font-semibold text-zinc-800 text-lg text-center">
+      <div className="px-4 md:px-8 py-2 flex flex-col items-center gap-3 md:flex-row md:justify-between">
+        <h1 className="font-semibold italic text-zinc-800 text-lg text-center">
           Boking
         </h1>
 
@@ -36,6 +36,7 @@ import { NavLink } from "react-router-dom";
           Login
         </button>
       </div>
+      
     </header>
   );
 }
